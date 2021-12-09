@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(to right,rgb(75, 148, 243),rgb(247, 166, 179));
+    text-align: center;
+    font-family: 'Cabin',sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+}
+h1{
+    background: -webkit-linear-gradient(rgb(243, 233, 144), rgb(238, 153, 55));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input{
+    width: 300px;
+    height: 20px;
+    padding: 12px 12px;
+    margin: 8px;
+    border-radius: 6px;
+    background-color: rgb(247, 136, 154);
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+p{
+    margin-left: -650px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    text-shadow: thistle;
+}
+button{
+    background-color: rgb(67, 161, 67);
+    width: 135px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.card{
+    position: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 4px 4px 0 black;
+    width: 800px;
+    height: auto;
+    background: rgba(56, 55, 55, 0.027);
+}
+.flex{
+    display: grid;
+    grid-row: auto;
+    grid-gap: 5px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
